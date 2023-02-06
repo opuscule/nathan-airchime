@@ -55,20 +55,20 @@ layout: 'base.njk'
               <label for="fiPhone">Phone</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="fiCompanyName" name="companyname" placeholder="Company Name" required />
+              <input type="text" class="form-control" id="fiCompanyName" name="companyname" placeholder="Company Name" data-rule-required="true" data-msg-required="Please enter your company name" required />
               <label for="fiCompanyName">Company Name</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="fiYourTitle" name="title" placeholder="Your Title" required />
+              <input type="text" class="form-control" id="fiYourTitle" name="title" placeholder="Your Title" data-rule-required="true" data-msg-required="Please enter your title" required />
               <label for="fiYourTitle">Your Title</label>
             </div>
           </div>
           <div class="col-md-6 ps-md-5">
-              <h4 class="raqFormTitles mb-4">How can we help you?</h4>
+              <h4 class="raqFormTitles mb-4">How can we your company?</h4>
             
             <div class="form-floating mt-3">
               <textarea class="form-control" name="details" placeholder="Please provide a few details about your project." id="fiMessage" required></textarea>
-              <label for="fiMessage">Please provide a few details about your needs.</label>
+              <label for="fiMessage">Please provide us with a list of your corporate specifications.</label>
             </div>
             
             <p><button type="submit" class="btn btn-primary my-4">Start Your Quote</button></p>
